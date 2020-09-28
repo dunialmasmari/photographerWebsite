@@ -96,7 +96,7 @@ $(document).ready(function () {
     });
     //grid
     $(".grid a").attr("data-fancybox", "myagallery");
-    $(".grid a.muuri-item-shown").fancybox();
+    $(".grid a").fancybox();
     //contactus
     $('.validity').validity({
 
@@ -186,70 +186,70 @@ document.addEventListener('DOMContentLoaded', function () {
                 imageid: '1',
                 imagsrc: './imges/natural/natural1.jpg',
                 imagetype: 'natural',
-                width: '200',
+                width: '350',
                 height: '290'
             },
             {
                 imageid: '2',
                 imagsrc: './imges/colection/colection1.jpg',
                 imagetype: 'colection',
-                width: '150',
+                width: '350',
                 height: '185'
             },
             {
                 imageid: '3',
                 imagsrc: './imges/places/places1.jpg',
                 imagetype: 'places',
-                width: '200',
+                width: '350',
                 height: '290'
             },
             {
                 imageid: '4',
                 imagsrc: './imges/natural/natural2.jpg',
                 imagetype: 'natural',
-                width: '300',
+                width: '350',
                 height: '200'
             },
             {
                 imageid: '5',
                 imagsrc: './imges/colection/colection2.jpg',
                 imagetype: 'colection',
-                width: '300',
+                width: '350',
                 height: '200'
             },
             {
                 imageid: '6',
                 imagsrc: './imges/colection/colection3.jpg',
                 imagetype: 'colection',
-                width: '200',
+                width: '350',
                 height: '130'
             },
             {
                 imageid: '7',
                 imagsrc: './imges/natural/natural3.jpg',
                 imagetype: 'natural',
-                width: '200',
+                width: '350',
                 height: '260'
             },
             {
                 imageid: '8',
                 imagsrc: './imges/places/places2.jpg',
                 imagetype: 'places',
-                width: '150',
+                width: '350',
                 height: '220'
             },
             {
                 imageid: '9',
                 imagsrc: './imges/colection/colection4.jpg',
                 imagetype: 'colection',
-                width: '200',
+                width: '350',
                 height: '300'
             },
             {
                 imageid: '10',
                 imagsrc: './imges/natural/natural4.jpg',
                 imagetype: 'natural',
-                width: '150',
+                width: '350',
                 height: '220'
             },
             {
@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
               var height = Math.floor(Math.random() * 2) + 1;*/
             var itemElem = document.createElement('div');
             var itemTemplate = '' +
-                '<a class="item"  data-id="' + imgarray[i].imageid + '" data-type="' + imgarray[i].imagetype + '"  style="height: ' + imgarray[i].height + 'px; width:' + imgarray[i].width + 'px;" href="' + imgarray[i].imagsrc + '" >' +
+                '<a class="item "  data-id="' + imgarray[i].imageid + '" data-type="' + imgarray[i].imagetype + '"   href="' + imgarray[i].imagsrc + '" >' +
 
                 '<img src="' + imgarray[i].imagsrc + '" alt="" height="100%" width="100%" />'
                 +

@@ -22,8 +22,6 @@ body {
   }
   .item {
     position: absolute;
-    width: 100px;
-    height: 100px;
     line-height: 100px;
     margin: 10px;
     z-index: 1;
@@ -331,5 +329,48 @@ body {
       margin: 0;
       outline: 0;
     }
-    
+    .muuri-item{
+      height:auto !important;
+    } 
   
+@media (min-width: 576px){
+  .muuri-item{
+    width:95%
+  }
+  
+}
+
+
+@media only screen and (max-width:400px)
+
+{
+  .muuri-item{
+    width:95%
+  }
+}
+@media only screen and (min-width:400px)
+
+{
+}
+@media only screen and (min-width:600px)
+{
+}
+@media only screen and (min-width:768px)
+{ .muuri-item{
+  width:45%
+}
+}
+@media only screen and (min-width:912px){
+
+}
+@media only screen and (min-width:992px)
+{ .muuri-item{
+  width:30%
+}
+}
+@media only screen and (min-width:1200px)
+{
+  .muuri-item{
+    width:30%;
+  }
+}
